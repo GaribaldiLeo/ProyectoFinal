@@ -1,0 +1,118 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;font-variant-alternates: normal;
+}
+
+.bg-colorbeige{    
+        background-color: rgb(233, 233, 219);
+        opacity: calc(95%);
+        width: auto;
+}
+
+.PaddingTitulos{
+    padding: 40px;
+    margin: 0px;
+}
+
+nav ul{
+    list-style: none;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+
+.pie{
+    padding: 20px;
+    text-align: center
+}
+
+body{
+    background-image: url(../img/fondo.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    }
+
+
+
+
+
+.grid{
+    width: 95%;
+    display: grid;
+
+}
+
+#contenedor-grid{
+    gap: 5px;
+    width: 100vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6,1fr); 
+    grid-template-areas: 
+    "uno"
+    "siete"
+    "dos"
+    "tres"
+    "nueve"
+    "ocho";  
+    
+}
+
+#promo1{
+    grid-area: uno;
+}
+#promo7{
+    grid-area: siete;
+}
+#promo2{
+    grid-area: dos;
+}
+#promo3{
+    grid-area: tres;
+}
+#promo9{
+    grid-area: nueve;
+}
+#promo8{
+    grid-area: ocho;
+}
+
+
+@media (min-width: 768px) {
+    #contenedor-grid{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "uno siete"
+        "dos tres"
+        "ocho ocho"
+        "nueve nueve";
+    }
+}
+
+@media (min-width: 1024px) {
+    #contenedor-grid{
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: auto;
+        grid-template-areas: 
+        "uno siete siete"
+        "ocho ocho dos"
+        "tres nueve nueve"
+        ;
+    }
+}
