@@ -1,8 +1,3 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box
-}
 
 
 
@@ -14,8 +9,13 @@ body{
 
 .bg-colorbeige{    
         background-color: rgb(233, 233, 219);
-        opacity: calc(95%);
+        opacity: 95%;
         width: auto;
+}
+
+.bg-NavColor{    
+    background-color: rgb(233, 233, 219);
+    width: auto;
 }
 
 .PaddingTitulos{

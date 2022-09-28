@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway&display=swap");
+#Pie {
+  text-align: center;
+  padding: 20px;
+}
+
+body {
+  background-color: rgb(233, 233, 219);
+  font-family: "Raleway", sans-serif;
+  font-variant-alternates: normal;
+}
+
+#ParrafoPrincipal {
+  color: black;
+  padding: 20px;
+}
+
+h1, h2 {
+  color: black;
+  padding: 40px;
+}/*# sourceMappingURL=main.css.map */

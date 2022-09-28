@@ -1,0 +1,23 @@
+@import "_common.scss";
+@import "_fonts.scss";
+@import "_navbar.scss";
+@import "_footer.scss";
+
+body{    
+    background-color: $MainColor;
+    font-family: 'Raleway', sans-serif;font-variant-alternates: normal;
+}
+
+#ParrafoPrincipal{
+    color: $ThirdColor;
+    padding: $PaddingParrafos;
+}
+
+h1, h2{
+    color: $ThirdColor;
+    padding: $PaddingTitulos;    
+}
+
+
+
+
