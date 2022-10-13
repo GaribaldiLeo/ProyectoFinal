@@ -13,9 +13,20 @@ body{
         width: auto;
 }
 
+#Recetasdulces{
+    background-color: rgb(233, 233, 219);
+}
+
 .bg-NavColor{    
     background-color: rgb(233, 233, 219);
     width: auto;
+}
+
+.contenedor-columnas {
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	margin-bottom: 50px;
 }
 
 .PaddingTitulos{
@@ -73,24 +84,7 @@ body{
     
 }
 
-#promo1{
-    grid-area: uno;
-}
-#promo7{
-    grid-area: siete;
-}
-#promo2{
-    grid-area: dos;
-}
-#promo3{
-    grid-area: tres;
-}
-#promo9{
-    grid-area: nueve;
-}
-#promo8{
-    grid-area: ocho;
-}
+
 
 
 @media (min-width: 768px) {

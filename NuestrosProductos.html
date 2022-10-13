@@ -1,109 +1,220 @@
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cociná en casa</title>
-    <link rel="shortcut icon" href="Img/favicom.png" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style.css">
-</head>
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<!--Mi CSS-->
+
+    <link rel="stylesheet" href="css/main.css">
+
+    <title > Productos - Cocina en casa</title>
+    <link rel="shortcut icon" href="Img/favicom.png" type="image/x-icon">    
+  </head>
+
 <body >
-    <nav class="bg-colorbeige">
-        <a href="./index.html">
-            <img src="Img/logo.jpg" alt="logo de Essen" >
-        </a>
-        <h1 class="PaddingTitulos"> Cocina en casa - Essen</h1>
-        <ul>
-            <li>
-                <a href="./NuestrosProductos.html">Conocé nuestros productos</a>
-            </li>
-            <li>
-                <a href="./Recetas/RecetasSaladas.html">Recetas Saladas</a>
-            </li>
-            <li>
-                <a href="./Recetas/RecetasDulces.html">Recetas Dulces</a>
-            </li>
-            <li>
-                <a href="./Cuidados.html">Cuidados</a>
-            </li>
-            <li>
-                <a href="./Contacto.html">Contacto</a>
-            </li>
-        </ul>
-               
-        
-    </nav>
+    <nav class="navbar navbar-expand-md navbar-light bg-colorbeige">
+        <div class="container-fluid"> 
+          <a class="navbar-brand" href="index.html"><img src="img/logo.jpg" alt="logo de Essen"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class=" me-auto collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="NuestrosProductos.html">Nuestros Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Cuidados.html">Cuidados</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Recetas
+                </a>
+                <ul class="dropdown-menu bg-colorbeige" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="RecetasDulces.html">Recetas dulces</a></li>
+                  <li><a class="dropdown-item" href="RecetasSaladas.html">Recetas saladas</a></li>
+                  
+                </ul>
+              </li>
+            </ul>
+          </div>
+          
+        </div>
+      </nav>
     <header class="bg-colorbeige">
-        <img src="Img/banner.jpg" alt="diferenes tipos de alimentos">
+      <h1  class="display-2 home">Conocé nuestros productos</h1>
+        <img src="Img/portadas/portadaproducto.png" alt="diferenes tipos de alimentos" width="100%">
     </header>
     
-    <main class="bg-colorbeige">
-        <h1 class="PaddingTitulos">Nuestros Productos</h1>
-
-        <style>
-            table, th, td{
-                border: 1px solid black;
-                
-            }
-        </style>
-        <table>
-            <tr>
-                <th>Producto</th>
-                <th>Tamaño</th>
-                <th>Color</th>
-            </tr>
-            <tr>
-                <td>Sarten</td>
-                <td>18cm</td>
-                <td>Aqua</td> 
-            </tr>
-            <tr>
-                <td>Sarten</td>
-                <td>18cm</td>
-                <td>Terra</td> 
-            </tr>
-            <tr>
-                <td>Cacerola</td>
-                <td>20cm</td>
-                <td>Aqua</td> 
-            </tr>
-            <tr>
-                <td>Cacerola</td>
-                <td>24cm</td>
-                <td>Aqua</td> 
-            </tr>
-            <tr>
-                <td>Cacerola</td>
-                <td>24cm</td>
-                <td>Terra</td> 
-            </tr>
-
-        </table>
-            <h1 class="PaddingTitulos"> Nuestras promos</h1>        
-            <div class="bg-colorbeige" id="contenedor-grid">
-                    <img id="promo1" src="img/Promos/promo1.jpeg" alt="">
-                    <img id="promo7" src="img/Promos/promo7.jpeg" alt="">
-                    <img id="promo2" src="img/Promos/promo2.jpeg" alt="">
-                    <img id="promo3" src="img/Promos/promo3.jpeg" alt="">
-                    <img id="promo8" src="img/Promos/promo8.jpeg" alt="">
-                    <img id="promo9" src="img/Promos/promo9.jpeg" alt="">               
+    <main >
+             <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class=" text-center p-0 m-0">
+                     <h2>
+                      Deslizá y conoce cada uno de nuestros productos. Cada uno para uso particular, con diferenes colores y formas para que encuentros el tuyo ideal.
+                    Conocé mas de nosotros en nuestro site oficial
+                    <a class="p-0 m-0" target="_blank" href="https://essen.com.ar"> <img src="Img/logo.jpg" alt="logo de Essen oficial"></a>
+                     </h2>
+                      
+                  </div>
+                </div>
+              </div>
             </div>
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-3 bg-white m-4 rounded-3 zoom shadow">
+                  <h2>
+                    Cacerola Cuadrada
+                  </h2>
+                  <img alt="Cacerola Essen cuadrada Aqua" src="Img/Promos/aquacacerolacuadrada30cm.jpg" width="100%"/>
+                    <p class="p-4">
+                    Diseño y estilo en un solo producto. Su capacidad se destaca ya que permite desarrollar cocciones para entre 6 y 8 comensales
+                  </p>
+                  <p>
+                    <a class="btn btn-success" href="https://wa.me/+5491144056330">Consultar</a>
+                  </p>
+                </div>
+                <div class="col-md-3 bg-white m-4 rounded-3 zoom shadow">
+                  <h2>
+                    Cacerola Redonda
+                  </h2>
+                  <img alt="Cacerola Essen redonda color Aqua" src="Img/Promos/Cac 28 Aqua.jpg" width="100%" class="m-2"/>
+                    <p class="p-3">
+                      Piezas de amplio diámetro, ideal para familias numerosas de 5 o 6 personas. Es una cacerola ideal para la cocción de carnes rojas, guisos, tartas, presas de pollo, salsas, etc.
+                  </p>
+                  <p>
+                    <a class="btn btn-success" href="https://wa.me/+5491144056330">Consultar</a>
+                  </p>
+                </div>
+                <div class="col-md-3 bg-white m-4 rounded-3 zoom shadow">
+                  <h2>
+                    Sartén 28 y 24 cm
+                  </h2>
+                  <img alt="Sarten Essen color Aqua" src="Img/Promos/Sartén aqua.jpg" width="100%" class="m-2"/>
+                    <p class="p-4">
+                    Estas sartenes ofrecen un amplio volumen, permitiendo la realización de platos y cocciones para familias de entre 5 y 6 integrantes.
+                  </p>
+                  <p>
+                    <a class="btn btn-success" href="https://wa.me/+5491144056330">Consultar</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-3 bg-white m-4 rounded-3 zoom shadow">
+                    <h2>
+                      Flip 2.0 desmontable
+                    </h2>
+                    <img alt="Flip Essen cuadrada color Aqua" src="Img/Promos/Flip2.0Aqua_1454x818_14Abr22.png" width="100%"/>
+                      <p class="p-3">
+                        La renovada ESSEN FLIP 2.0 nos permite preparar gran cantidad de recetas gracias a su multifuncionalidad
+                    </p>
+                    <p>
+                      <a class="btn btn-success" href="https://wa.me/+5491144056330">Consultar</a>
+                    </p>
+                  </div>
+                  <div class="col-md-3 bg-white m-4 rounded-3 zoom shadow">
+                    <h2>
+                      Bifera con asas
+                    </h2>
+                    <img alt="Bifera con asas Essen color Aqua" src="Img/Promos//aquabiferaconasascm.jpg" width="100%" class="m-2"/>
+                      <p class=" p-3 m-4">
+                        ¡Exclusivo diseño! Optimiza la distribución del calor logrando una cocción pareja y un sellado crocante. 
+                    </p>
+                    <p>
+                      <a class="btn btn-success" href="https://wa.me/+5491144056330">Consultar</a>
+                    </p>
+                  </div>
+                  <div class="col-md-3 bg-white m-4 rounded-3 zoom shadow">
+                    <h2>
+                      Cacerola 18 cm con mango
+                    </h2>
+                    <img alt="Cacerola Essen cuadrada Aqua" src="Img/Promos/aquacacerolaconmango18cm.jpg" width="100%"/>
+                      <p class="p-3">
+                        Poseen una pequeña base, paredes laterales altas y mango lo que facilita el manejo de las piezas.
+                    </p>
+                    <p>
+                      <a class="btn btn-success" href="https://wa.me/+5491144056330">Consultar</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-3 bg-white m-4 rounded-3 zoom shadow">
+                    <h2>
+                      Fuente Rectangular
+                    </h2>
+                    <img alt="Flip Essen cuadrada color Aqua" src="Img/Promos/Rectangular Terra.jpg" width="100%"/>
+                      <p class="p-3">
+                        El diseño de la Fuente Rectangular permite distribuir uniformemente el calor por toda la superficie. Su forma hace que manipular los ingredientes durante la cocción sea mucho más fácil y seguro.
+                    </p>
+                    <p>
+                      <a class="btn btn-success" href="https://wa.me/+5491144056330">Consultar</a>
+                    </p>
+                  </div>
+                  <div class="col-md-3 bg-white m-4 rounded-3 zoom shadow">
+                    <h2>
+                      Cacerola 8 litros terra
+                    </h2>
+                    <img alt="Cacerola 8 litros terra" src="Img/Promos/Cacerola 8L_Terra_Recorte_1454x818_20May22.png" width="100%" />
+                      <p class="p-4 ">
+                       Permite desarrollar cocciones para hasta 8 comensales. Es ideal para la cocción de: pastas, guisados, consomé, salsas, presas de pollo, cazuelas, pescados, etc.
+                    </p>
+                    <p >
+                      <a class="btn  btn-success" href="https://wa.me/+5491144056330">Consultar</a>
+                    </p>
+                  </div>
+                  <div class="col-md-3 bg-white m-4 rounded-3 zoom shadow">
+                    <h2>
+                      Sartén 31cm con asas
+                    </h2>
+                    <img alt="Sarten Essen color terra con asas" src="Img/Promos/terrasartenconasas31cm.jpg" width="100%"/>
+                      <p class="p-3">
+                        Esta sartén tiene el tamaño ideal para realizar grandes porciones, sobre todo para recetas de tartas, tortillas, verduras rellenas y paellas. Su diseño facilita los desmoldes y las asas fijas ayudan a manejar el producto con mayor seguridad durante las coccione
+                    </p>
+                    <p>
+                      <a class="btn btn-success" href="https://wa.me/+5491144056330">Consultar</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              
+            
         
     </main>
-    <footer class="bg-colorbeige pie">
-        <div >
-        <h4 >Seguinos en nuestras redes y enterate todas las novedades</h4>
+    <footer class="p-2 m-4 text-center">
+      <div >
+        <h6>Seguinos en nuestras redes y enterate todas las novedades</h6>
         <a href="https://instagram.com/cocinaencasa.essen" target="_blank">
-            <img src="Img/instagram.jpg" alt="logo de instagram" width="50">
+            <img src="Img/instagram (1).svg" alt="logo de instagram" width="3%">
         </a>
         <a href="https://facebook.com/LorePignanelli" target="_blank">
-            <img src="Img/facebook.png" alt="logo de facebook" width="50" height="50">
+            <img src="Img/facebook (1).svg" alt="logo de facebook" width="3%" height="50">
         </a>    
         <a href="https://wa.me/+5491144056330" target="_blank">
-            <img src="Img/WhatsApp.png" alt="logo de whatsapp" width="50">
+            <img src="Img/whatsapp (2).svg" alt="logo de whatsapp" width="3%">
         </a>
-        </div>     
-    </footer>
+        </div>    
+  </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 </body>
 
 </html>

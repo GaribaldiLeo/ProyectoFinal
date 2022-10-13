@@ -1,8 +1,25 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Open+Sans:wght@300&family=Raleway&display=swap');
+;
 #Pie {
   text-align: center;
   padding: 20px;
+  margin: 20px;
 }
+
+.backgroundpresentacion{
+  background-color: lightseagreen;
+
+}
+
+.zoom{
+  transition: tranform 1s;
+}
+
+.zoom:hover{
+  transform: scale(1.1);
+}
+
 
 body {
   background-color: rgb(233, 233, 219);
@@ -18,4 +35,10 @@ body {
 h1, h2 {
   color: black;
   padding: 40px;
-}/*# sourceMappingURL=main.css.map */
+}
+
+.home{
+  font-family: 'Dancing Script', cursive;
+
+}
+/*# sourceMappingURL=main.css.map */
